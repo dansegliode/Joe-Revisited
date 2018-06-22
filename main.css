@@ -249,7 +249,7 @@ a:active{
 }
 .projectContainer{
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	align-items: center;
 	margin-bottom: 92px;
 }
@@ -260,14 +260,13 @@ a:active{
 	margin-top: 56px;
 	background-color: pink;
 	height: 398px;
-
 }
 .textContainer{
 	position: relative;
 	display: inline-block;
 	margin-left: 56px;
-
 }
+
 .otherWayMargin{
 	margin-left: 0;
 	margin-right: 56px;
