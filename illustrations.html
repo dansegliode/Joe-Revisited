@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<meta property="og:title" content="Joe Hurley - Animator, Storyboard Artist, Illustrator" />
 	<meta property="og:url" content="http://joesshockingtoons.com/" />
 	<meta property="og:image" content="http://joesshockingtoons.com/assets/ogimage.jpg" />
@@ -10,7 +10,15 @@
 	<meta charset="UTF-8" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<!-- Remember to include jQuery :) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+	<!-- jQuery Modal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="illustrations.css">
+
 	<title>Joe Hurley - Illustrations</title>
 	<link rel="icon" type="image/png" href="favicon.png">
 </head>
@@ -46,23 +54,102 @@
 
 		<div class="projects illustration_container">
 
-
-			<img src="assets/illustrations/one.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/two.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/three.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/four.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/five.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/six.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/seven.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/eight.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/nine.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/ten.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/eleven.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/twelve.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/thirteen.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/fourteen.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/fifteen.jpg" class="illustration" alt="illustration"/>
-			<img src="assets/illustrations/sixteen.jpg" class="illustration" alt="illustration"/>
+			<a href="#ex1" rel="modal:open">
+				<img id="1" src="assets/illustrations/one.jpg" class="illustration" alt="illustration"/>
+				<div id="ex1" class="modal">
+					<img id="1" src="assets/illustrations/one.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex2" rel="modal:open">
+				<img id="1" src="assets/illustrations/two.jpg" class="illustration" alt="illustration"/>
+				<div id="ex2" class="modal">
+					<img id="1" src="assets/illustrations/two.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex3" rel="modal:open">
+				<img id="1" src="assets/illustrations/three.jpg" class="illustration" alt="illustration"/>
+				<div id="ex3" class="modal">
+					<img id="1" src="assets/illustrations/three.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex4" rel="modal:open">
+				<img id="1" src="assets/illustrations/four.jpg" class="illustration" alt="illustration"/>
+				<div id="ex4" class="modal">
+					<img id="1" src="assets/illustrations/four.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex5" rel="modal:open">
+				<img id="1" src="assets/illustrations/five.jpg" class="illustration" alt="illustration"/>
+				<div id="ex5" class="modal">
+					<img id="1" src="assets/illustrations/five.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex6" rel="modal:open">
+				<img id="1" src="assets/illustrations/six.jpg" class="illustration" alt="illustration"/>
+				<div id="ex6" class="modal">
+					<img id="1" src="assets/illustrations/six.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex7" rel="modal:open">
+				<img id="1" src="assets/illustrations/seven.jpg" class="illustration" alt="illustration"/>
+				<div id="ex7" class="modal">
+					<img id="1" src="assets/illustrations/seven.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex8" rel="modal:open">
+				<img id="1" src="assets/illustrations/eight.jpg" class="illustration" alt="illustration"/>
+				<div id="ex8" class="modal">
+					<img id="1" src="assets/illustrations/eight.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex9" rel="modal:open">
+				<img id="1" src="assets/illustrations/nine.jpg" class="illustration" alt="illustration"/>
+				<div id="ex9" class="modal">
+					<img id="1" src="assets/illustrations/nine.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex10" rel="modal:open">
+				<img id="1" src="assets/illustrations/ten.jpg" class="illustration" alt="illustration"/>
+				<div id="ex10" class="modal">
+					<img id="1" src="assets/illustrations/ten.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex11" rel="modal:open">
+				<img id="1" src="assets/illustrations/eleven.jpg" class="illustration" alt="illustration"/>
+				<div id="ex11" class="modal">
+					<img id="1" src="assets/illustrations/eleven.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex12" rel="modal:open">
+				<img id="1" src="assets/illustrations/twelve.jpg" class="illustration" alt="illustration"/>
+				<div id="ex12" class="modal">
+					<img id="1" src="assets/illustrations/twelve.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex13" rel="modal:open">
+				<img id="1" src="assets/illustrations/sixteen.jpg" class="illustration" alt="illustration"/>
+				<div id="ex13" class="modal">
+					<img id="1" src="assets/illustrations/sixteen.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex14" rel="modal:open">
+				<img id="1" src="assets/illustrations/thirteen.jpg" class="illustration" alt="illustration"/>
+				<div id="ex14" class="modal">
+					<img id="1" src="assets/illustrations/thirteen.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex15" rel="modal:open">
+				<img id="1" src="assets/illustrations/fourteen.jpg" class="illustration" alt="illustration"/>
+				<div id="ex15" class="modal">
+					<img id="1" src="assets/illustrations/fourteen.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
+			<a href="#ex16" rel="modal:open">
+				<img id="1" src="assets/illustrations/fifteen.jpg" class="illustration" alt="illustration"/>
+				<div id="ex16" class="modal">
+					<img id="1" src="assets/illustrations/fifteen.jpg" class="modal-image" alt="illustration"/>
+				</div>
+			</a>
 
 
 		</div>
@@ -92,5 +179,16 @@
 		</a>
 
 	</div>
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-90541343-2', 'auto');
+	ga('send', 'pageview');
+
+</script>
+<script src="modal.js"></script>
 </body>
 </html>

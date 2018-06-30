@@ -46,12 +46,12 @@ a:active{
 }
 
 /* #mainVideo {
-	z-index: -9999;
-	position: absolute;
+z-index: -9999;
+position: absolute;
 
-	top: 0;
-	min-height: 100%;
-	min-width: 100%;
+top: 0;
+min-height: 100%;
+min-width: 100%;
 
 }
 */
@@ -421,4 +421,19 @@ to {transform: translateY(0px);}
 }
 .reelMargins{
 	margin-top:-400px;
+}
+
+
+.modal{
+	left:inherit;
+	/* position: absolute; */
+	margin:0;
+	padding: 0;
+	max-width: 90vw;
+}
+
+.modal-image{
+	width: inherit;
+	margin:0,auto;
+
 }
