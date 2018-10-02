@@ -427,17 +427,18 @@ to {transform: translateY(0px);}
 .modal{
 	left:inherit;
 	/* position: absolute; */
-	margin:0;
+	margin: 0;
 	padding: 0;
+	width: 100%;
 	max-width: 90vw;
+	max-height: 90vh;
 }
 
 .modal-image{
 	width: inherit;
-	margin:0,auto;
-
+	margin: 0 auto;
 }
 
 .face2facePDF{
-	text-decoration: underline;;
+	text-decoration: underline;
 }
